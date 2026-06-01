@@ -106,11 +106,12 @@ index=dns_logs sourcetype=dns_logs1 | rex field=_raw "^\S+\s+\S+\s+\S+\s+\S+\s+\
 
 **Query used:**
 ```spl
-index=* sourcetype=dns_sample | top fqdn, src_ip
+index=dns_logs sourcetype=dns_logs1 | rex field=_raw "^\S+\s+\S+\s+(?P<src_ip>\S+)" | top src_ip
 ```
 
 **Screenshot:**
-> [Insert screenshot of top command output]
+> <img width="1917" height="904" alt="image" src="https://github.com/user-attachments/assets/1074561b-a141-4e17-8fda-3bfcc19b8a1c" />
+
 
 **Finding:**
 > [Which source IPs generated the most DNS queries? Which FQDNs were queried most frequently?]
