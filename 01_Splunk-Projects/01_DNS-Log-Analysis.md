@@ -72,11 +72,12 @@ index=* sourcetype=dns_logs1
 
 **Query used:**
 ```spl
-index=* sourcetype=dns_sample | regex _raw="(?i)\b(dns|domain|query|response|port 53)\b"
+index=dns_logs sourcetype=dns_logs1 | regex _raw="(?i)\b(dns|domain|query|response|port 53)\b"
 ```
 
 **Screenshot:**
-> [Insert screenshot showing extracted fields]
+> <img width="1902" height="905" alt="image" src="https://github.com/user-attachments/assets/aea16eeb-6ddc-43e0-9121-ac3f7e6c9a7d" />
+
 
 **Finding:**
 > [What fields were visible? Were all expected fields present: src_ip, fqdn, query type, response code?]
