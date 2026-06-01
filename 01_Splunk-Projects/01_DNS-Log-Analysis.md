@@ -88,11 +88,14 @@ index=dns_logs sourcetype=dns_logs1 | regex _raw="(?i)\b(dns|domain|query|respon
 
 **Query used:**
 ```spl
-index=_* OR index=* sourcetype=dns_sample | stats count by fqdn
+index=dns_logs sourcetype=dns_logs1 | rex field=_raw "^\S+\s+\S+\s+\S+\s+\S+\s+\S+\s+\S+\s+\S+\s+\S+\s+(?P<query>\S+)" | stats count by query | sort -count
 ```
 
 **Screenshot:**
-> [Insert screenshot of stats output]
+> <img width="1900" height="885" alt="image" src="https://github.com/user-attachments/assets/4ed4dcce-c6be-433e-975b-3eb55a170af1" />
+<img width="1892" height="786" alt="image" src="https://github.com/user-attachments/assets/86f15633-63f8-4b0f-add7-90b3a2778712" />
+
+
 
 **Finding:**
 > [Which domains had unusually high query counts? Did any stand out as suspicious?]
