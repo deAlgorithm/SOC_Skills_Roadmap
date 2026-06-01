@@ -122,7 +122,7 @@ index=dns_logs sourcetype=dns_logs1 | rex field=_raw "^\S+\s+\S+\s+(?P<src_ip>\S
 
 **Query used:**
 ```spl
-index=* sourcetype=dns_sample fqdn="[suspicious domain found in Task 4 or 5]"
+index=dns_logs sourcetype=dns_logs1 | rex field=_raw "^\S+\s+\S+\s+(?P<src_ip>\S+)\s+\S+\s+\S+\s+\S+\s+\S+\s+\S+\s+(?P<query>\S+)" | search src_ip="10.10.117.210" | stats count by query | sort -count
 ```
 
 **Screenshot:**
