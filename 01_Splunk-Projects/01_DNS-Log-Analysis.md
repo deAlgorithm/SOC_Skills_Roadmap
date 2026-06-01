@@ -23,8 +23,8 @@ Analyze DNS log files using Splunk to identify anomalies, suspicious domains, an
 - Fields present: source IP, destination IP, domain name, query type, response code
 
 ### Splunk Configuration
-- Index used: `[your index name]`
-- Source type: `dns_sample`
+- Index used: `dns_logs`
+- Source type: `dns_logs1`
 
 ---
 
@@ -35,17 +35,18 @@ Analyze DNS log files using Splunk to identify anomalies, suspicious domains, an
 **Steps taken:**
 1. Navigated to Settings > Add Data > Upload
 2. Selected dns.log file
-3. Set source type to `dns_sample`
+3. Set source type to `dns_logs1`
 4. Confirmed index and host settings
 5. Ran verification query after upload
 
 **Query used:**
 ```spl
-index=<your_dns_index> sourcetype=dns_sample
+index="dns_logs" sourcetype="dns_logs1"
 ```
 
 **Screenshot:**
-> [Insert screenshot of Splunk showing uploaded DNS events]
+> <img width="1840" height="850" alt="image" src="https://github.com/user-attachments/assets/b787b2f2-7e30-40fc-960b-55a3b85254f2" />
+
 
 **Finding:**
 > [Describe what you saw. How many events were ingested? What time range do the logs cover?]
@@ -56,7 +57,7 @@ index=<your_dns_index> sourcetype=dns_sample
 
 **Query used:**
 ```spl
-index=* sourcetype=dns_sample
+index=* sourcetype=dns_logs1
 ```
 
 **Screenshot:**
