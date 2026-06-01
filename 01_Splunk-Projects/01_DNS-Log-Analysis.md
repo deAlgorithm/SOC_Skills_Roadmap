@@ -67,7 +67,8 @@ index=* sourcetype=dns_logs1
 ```
 
 **Screenshot:**
-> <img width="1840" height="850" alt="image" src="https://github.com/user-attachments/assets/b787b2f2-7e30-40fc-960b-55a3b85254f2" />
+> <img width="1912" height="899" alt="image" src="https://github.com/user-attachments/assets/e6d1be12-9a6e-4790-abd8-1dfef11d9d13" />
+
 
 **Finding:**
 427,935 events returned. Reviewing individual events confirmed the Zeek DNS log structure with tab-separated fields including source IP, destination IP, port 53 as destination, UDP protocol, domain query, query type and response code. First event reviewed showed a Windows machine at 192.168.202.141 querying s.msftncsi.com (Microsoft network connectivity check) and receiving an NXDOMAIN response, indicating no internet access at that time.
