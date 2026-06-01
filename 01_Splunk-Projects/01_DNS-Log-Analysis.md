@@ -126,7 +126,10 @@ index=* sourcetype=dns_sample fqdn="[suspicious domain found in Task 4 or 5]"
 ```
 
 **Screenshot:**
-> [Insert screenshot]
+> <img width="1896" height="889" alt="image" src="https://github.com/user-attachments/assets/3f16a7a1-cbf4-43c6-8cf7-ea30490cae7e" />
+><img width="1894" height="900" alt="image" src="https://github.com/user-attachments/assets/193c14dc-07b3-4119-bac6-7a2a05fd1873" />
+
+
 
 **Finding:**
 > [What did you find when you drilled into the suspicious domain? Any IOCs worth noting?]
