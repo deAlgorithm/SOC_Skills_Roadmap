@@ -133,7 +133,8 @@ index=ftp_logs sourcetype=ftp_logs1 | rex field=_raw "^\S+\s+\S+\s+(?P<src_ip>\S
 ```
 
 **Screenshot:**
-> [Insert screenshot of file transfer results]
+> <img width="1895" height="903" alt="image" src="https://github.com/user-attachments/assets/eda455cd-3639-48d2-8a99-4d04c233a3cc" />
+
 
 **Finding:**
 > [What files were transferred? Were any executables or suspicious file types transferred? Any transfers to external IPs?]
