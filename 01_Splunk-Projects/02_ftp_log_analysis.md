@@ -117,7 +117,8 @@ index=ftp_logs sourcetype=ftp_logs1 | rex field=_raw "^\S+\s+\S+\s+(?P<src_ip>\S
 ```
 
 **Screenshot:**
-> [Insert screenshot of user behavior results]
+> <img width="1901" height="899" alt="image" src="https://github.com/user-attachments/assets/25497ed5-4e0d-4a1f-a13b-841675a2c969" />
+
 
 **Finding:**
 > [Which IPs had the most activity? Were there failed login attempts (reply code 530)? Any successful anonymous logins (reply code 230)?]
