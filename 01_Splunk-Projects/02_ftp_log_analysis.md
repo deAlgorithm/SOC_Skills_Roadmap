@@ -53,7 +53,8 @@ index=ftp_logs sourcetype=ftp_logs1
 ```
 
 **Screenshot:**
-> [Insert screenshot of verified FTP events]
+> <img width="1897" height="907" alt="image" src="https://github.com/user-attachments/assets/642ed17b-8629-4a97-a5db-6edad14e1756" />
+
 
 **Finding:**
 > [How many events were ingested? What time range do the logs cover?]
@@ -68,7 +69,8 @@ index=ftp_logs sourcetype=ftp_logs1
 ```
 
 **Screenshot:**
-> [Insert screenshot of search results]
+> <img width="1897" height="907" alt="image" src="https://github.com/user-attachments/assets/1df3b88e-3bbe-4eff-8225-25ea04ece6cf" />
+
 
 **Finding:**
 > [How many events returned? What fields are visible in the raw events?]
