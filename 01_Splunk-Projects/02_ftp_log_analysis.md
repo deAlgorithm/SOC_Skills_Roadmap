@@ -101,7 +101,8 @@ index=ftp_logs sourcetype=ftp_logs1 | rex field=_raw "^\S+\s+\S+\s+(?P<src_ip>\S
 ```
 
 **Screenshot:**
-> [Insert screenshot of username and password combinations]
+> <img width="1894" height="899" alt="image" src="https://github.com/user-attachments/assets/281156cc-6f80-49e7-b186-0ae5039bc980" />
+
 
 **Finding:**
 > [What usernames and passwords were used? Were there anonymous logins? Were there weak credentials?]
