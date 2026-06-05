@@ -85,7 +85,8 @@ index=ftp_logs sourcetype=ftp_logs1 | rex field=_raw "^\S+\s+\S+\s+(?P<src_ip>\S
 ```
 
 **Screenshot:**
-> [Insert screenshot of command frequency results]
+> <img width="1895" height="899" alt="image" src="https://github.com/user-attachments/assets/d923ca98-47f9-4f81-ad09-d373c6fe89ab" />
+
 
 **Finding:**
 > [Which FTP commands appeared most frequently? What does that tell you about the activity?]
