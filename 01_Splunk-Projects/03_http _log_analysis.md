@@ -48,7 +48,8 @@ index=http_logs sourcetype=http_logs1
 ```
  
 **Screenshot:**
-> [Insert screenshot of verified HTTP events]
+> <img width="1920" height="849" alt="image" src="https://github.com/user-attachments/assets/79ea7679-a34c-42b5-88f5-58d0f7d19309" />
+
  
 **Finding:**
 > [How many events were ingested? What time range do the logs cover?]
@@ -63,7 +64,8 @@ index=http_logs sourcetype=http_logs1
 ```
  
 **Screenshot:**
-> [Insert screenshot of search results]
+> mc
+<img width="1920" height="849" alt="image" src="https://github.com/user-attachments/assets/5179a03d-e57d-4aec-87b2-c697c4120204" />
  
 **Finding:**
 > [How many events returned? What fields are visible in the raw events?]
