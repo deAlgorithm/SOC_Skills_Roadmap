@@ -80,7 +80,8 @@ index=http_logs sourcetype=http_logs1 | rex field=_raw "^\S+\s+\S+\s+\S+\s+\S+\s
 ```
  
 **Screenshot:**
-> [Insert screenshot of method distribution]
+> <img width="1920" height="847" alt="image" src="https://github.com/user-attachments/assets/70d26d75-8bd7-499f-a985-642ede973cc5" />
+
  
 **Finding:**
 > [What HTTP methods were used? GET vs POST ratio? Any unusual methods like PUT, DELETE, HEAD?]
@@ -95,7 +96,8 @@ index=http_logs sourcetype=http_logs1 | rex field=_raw "^\S+\s+\S+\s+\S+\s+\S+\s
 ```
  
 **Screenshot:**
-> [Insert screenshot of top URIs]
+> <img width="1919" height="707" alt="image" src="https://github.com/user-attachments/assets/7c091142-c0d4-4dcf-8702-cc0b623f8bf8" />
+
  
 **Finding:**
 > [Which URIs were accessed most frequently? Any suspicious paths like admin panels, shell uploads, or scanning patterns?]
